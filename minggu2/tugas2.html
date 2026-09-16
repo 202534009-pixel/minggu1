@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HMJ Sistem Informasi - SASHANO</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    nav a {
+      margin-right: 15px;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    input, textarea {
+      width: 100%;
+      max-width: 500px;
+      padding: 8px;
+    }
+
+    :focus-visible {
+      outline: 3px solid blue;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>HMJ Sistem Informasi - SASHANO</h1>
+    <p>
+      Kegiatan mahasiswa Sistem Informasi Universitas Katolik Widya Karya Malang.
+    </p>
+  </header>
+
+  <nav aria-label="Navigasi utama">
+    <a href="#tentang">Tentang HMJ</a>
+    <a href="#sashano">SASHANO</a>
+    <a href="#form">Formulir</a>
+  </nav>
+
+  <main>
+
+    <article>
+      <h2>Kegiatan HMJ Sistem Informasi</h2>
+
+      <section id="tentang">
+        <h3>Tentang HMJ</h3>
+
+        <p>
+          HMJ Sistem Informasi menjadi wadah mahasiswa untuk mengembangkan
+          kemampuan, kerja sama, dan pengalaman berorganisasi.
+        </p>
+
+        <img src="sashano.jpg"
+             alt="Kegiatan SASHANO HMJ Sistem Informasi">
+      </section>
+
+      <section id="sashano">
+        <h3>SASHANO</h3>
+
+        <p>
+          SASHANO merupakan kegiatan HMJ Sistem Informasi untuk mempererat
+          kebersamaan dan membangun kerja sama antar mahasiswa.
+        </p>
+      </section>
+
+      <section>
+        <h3>Manfaat Kegiatan</h3>
+
+        <p>
+          Kegiatan organisasi membantu mahasiswa mengembangkan komunikasi,
+          tanggung jawab, kreativitas, dan pengalaman.
+        </p>
+      </section>
+
+    </article>
+
+    <section id="form">
+      <h2>Formulir Informasi</h2>
+
+      <form action="#" method="post">
+
+        <p>
+          <label for="nama">Nama lengkap:</label>
+          <input type="text"
+                 id="nama"
+                 name="nama"
+                 autocomplete="name"
+                 required>
+        </p>
+
+        <p>
+          <label for="email">Email:</label>
+          <input type="email"
+                 id="email"
+                 name="email"
+                 autocomplete="email"
+                 required>
+        </p>
+
+        <p>
+          <label for="pesan">Pesan:</label>
+          <textarea id="pesan"
+                    name="pesan"
+                    required></textarea>
+        </p>
+
+        <button type="submit">Kirim</button>
+
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 HMJ Sistem Informasi - UKWK Malang</p>
+  </footer>
+
+</body>
+</html>
