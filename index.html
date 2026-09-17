@@ -3,26 +3,123 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Halaman Pertama Saya</title>
+  <title>Informasi Pantai</title>
 </head>
 
 <body>
-  <h1>Maria Amelda Jaquiline</h1>
 
-  <p>
-    Asal sekolah atau daerah: [SMAK Santo Yosef].
-  </p>
-  <p>
-    Saya belajar web development karena ingin memahami cara membuat
-    dan mengembangkan website serta meningkatkan keterampilan saya
-    di bidang teknologi informasi.
-  </p>
-  <h2>"Terus belajar dan jangan takut untuk mencoba."</h2>
-  <p>
-    Kutipan tersebut memiliki makna bahwa kita harus terus belajar
-    dan tidak takut mencoba hal-hal baru. Kesalahan adalah bagian
-    dari proses belajar. Dengan terus mencoba dan memperbaiki
-    kesalahan, kita dapat meningkatkan kemampuan dan mencapai tujuan.
-  </p>
-</body>
-</html>
+  <header>
+    <h1>Informasi Pantai</h1>
+
+    <nav aria-label="Navigasi utama">
+      <a href="#profil">Profil</a>
+      <a href="#potensi">Potensi</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <article id="profil">
+      <h2>Profil Pantai</h2>
+
+      <p>
+        Asal sekolah atau daerah: SMAK Santo Yosef.
+      </p>
+
+      <p>
+        Pantai merupakan salah satu tempat wisata yang memiliki
+        keindahan alam berupa pasir, air laut, dan pemandangan
+        yang menarik. Pantai dapat menjadi tempat untuk bersantai,
+        menikmati pemandangan, dan menghabiskan waktu bersama keluarga.
+      </p>
+
+      <p>
+        Saya belajar web development karena ingin memahami cara
+        membuat dan mengembangkan website serta meningkatkan
+        keterampilan saya di bidang teknologi informasi.
+      </p>
+
+      <h2>Keindahan Pantai</h2>
+
+      <p>
+        Keindahan pantai dapat dinikmati melalui pemandangan laut,
+        pasir pantai, serta suasana alam yang tenang. Pantai juga
+        dapat menjadi tempat untuk melakukan berbagai kegiatan
+        seperti berjalan-jalan dan menikmati matahari terbenam.
+      </p>
+
+      <img
+       src="Pantai.jpg"
+      alt="Pemandangan pantai di Maumere"
+      >
+    </article>
+
+
+    <section id="potensi">
+      <h2>Potensi Pantai</h2>
+
+      <p>
+        Pantai memiliki berbagai potensi yang dapat dikembangkan,
+        seperti pariwisata, kegiatan nelayan, kuliner hasil laut,
+        serta usaha masyarakat di sekitar kawasan pantai.
+      </p>
+
+      <p>
+        Pengembangan potensi pantai perlu dilakukan dengan tetap
+        menjaga kebersihan dan kelestarian lingkungan agar keindahan
+        pantai dapat dinikmati dalam jangka panjang.
+      </p>
+    </section>
+
+
+    <section id="kontak">
+      <h2>Kirim Pesan</h2>
+
+      <form action="#" method="post">
+
+        <div>
+          <label for="nama">Nama lengkap</label>
+          <input
+            id="nama"
+            name="nama"
+            type="text"
+            autocomplete="name"
+            required
+          >
+        </div>
+
+        <div>
+          <label for="email">Alamat email</label>
+          <input
+            id="email"
+            name="email"
+            type="email"
+            autocomplete="email"
+            required
+          >
+        </div>
+
+        <div>
+          <label for="pesan">Pesan</label>
+          <textarea
+            id="pesan"
+            name="pesan"
+            minlength="10"
+            required
+          ></textarea>
+        </div>
+
+        <button type="submit">Kirim pesan</button>
+
+      </form>
+    </section>
+
+  </main>
+
+
+  <footer>
+    <p>Dibuat untuk Website Programming.</p>
+  </footer>
+
+</Maumere
