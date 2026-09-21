@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Informasi Pantai</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="Pantai.jpg" type="image/jpeg">
 </head>
 
 <body>
@@ -12,20 +15,26 @@
     <h1>Informasi Pantai</h1>
 
     <nav aria-label="Navigasi utama">
-      <a href="#profil">Profil</a>
-      <a href="#potensi">Potensi</a>
-      <a href="#kontak">Kontak</a>
+      <a href="#profil" class="nav-link">Profil</a>
+      <a href="#potensi" class="nav-link">Potensi</a>
+      <a href="#kontak" class="nav-link">Kontak</a>
     </nav>
   </header>
 
   <main>
 
-    <article id="profil">
-      <h2>Profil Pantai</h2>
+    <article id="profil" class="card">
+      <h2>Profil Daerah</h2>
 
       <p>
         Asal sekolah atau daerah: SMAK Santo Yosef.
       </p>
+
+      <!-- Gambar SMAK Santo Yosef -->
+      <img
+        src="sekolah.jpg"
+        alt="logo Smak Santo Yosef"
+      >
 
       <p>
         Pantai merupakan salah satu tempat wisata yang memiliki
@@ -50,11 +59,11 @@
       </p>
 
       <img
-       src="Pantai.jpg"
-      alt="Pemandangan pantai di Maumere"
+        src="Pantai.jpg"
+        alt="Pemandangan pantai di Maumere"
       >
-    </article>
 
+    </article>
 
     <section id="potensi">
       <h2>Potensi Pantai</h2>
@@ -71,7 +80,6 @@
         pantai dapat dinikmati dalam jangka panjang.
       </p>
     </section>
-
 
     <section id="kontak">
       <h2>Kirim Pesan</h2>
@@ -117,9 +125,9 @@
 
   </main>
 
-
   <footer>
     <p>Dibuat untuk Website Programming.</p>
   </footer>
 
-</Maumere
+</body>
+</html>
